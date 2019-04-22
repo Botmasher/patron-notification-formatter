@@ -1,5 +1,7 @@
 import re
 
+# example data
+# TODO: scrape notifications
 notifications_raw = """
 $2 pledged by Abc123
 Apr 21st, 2019
@@ -23,7 +25,7 @@ Apr 19st, 2019
 # 			...
 #			},
 #			'updated': {
-#				# amount : set(...names).
+#				# amount : set(...names),
 # 			...
 #			}
 #		},
